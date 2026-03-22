@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="36sp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/toast_printer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="print toast"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/button_inc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+increment+" />
+    <Button
+        android:id="@+id/button_dec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-decrement-" />
+
+</LinearLayout>
